@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/zhangdong/project/NewDay/library/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e02f3eb0c3f58250fd9e7c0fbe042c4d6c847758">
+        <dex dex="/Users/zhangdong/project/NewDay/app/build/intermediates/pre-dexed/debug/classes_129d70d6d01fad583f8aeca516d45f490621a368.jar" />
+    </item>
+
+</items>

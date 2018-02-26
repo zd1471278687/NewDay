@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <LinearLayout
+        android:id="@+id/ll_default_load_next_page"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <com.zd.newdaylib.commonview.circleprogress.CircleProgressView
+            android:id="@+id/cpv_default_loading"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            circle:cpv_color="@color/colorPrimary"
+            circle:cpv_indeterminate="true"
+            circle:cpv_thickness="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="@string/loading"
+            android:textColor="@color/black_4a4c5b"
+            android:textSize="@dimen/ts_14" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_default_no_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/list_no_more_data"
+        android:textColor="@color/black_4a4c5b"
+        android:textSize="@dimen/ts_14"
+        android:visibility="gone" />
+
+</RelativeLayout>

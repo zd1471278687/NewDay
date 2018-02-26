@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NewDay</string>
+    <string name="action_settings">设置</string>
+    <string name="theme">Theme</string>
+
+    <string name="zhihu" translatable="false">知乎日报</string>
+    <string name="topnews" translatable="false">网易头条</string>
+    <string name="meizi" translatable="false">每日看看</string>
+    <string name="about">关于</string>
+
+    <string name="tab_home">首页</string>
+    <string name="tab_know">知乎</string>
+    <string name="tab_news">网易</string>
+    <string name="tab_my">我的</string>
+</resources>

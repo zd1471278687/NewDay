@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <ImageView
+        android:id="@+id/iv_credit_bar_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon_arrow_back"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_credit_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLength="30"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/ts_16" />
+
+    <View
+        android:id="@+id/view_credit_title_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h_divider"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gray_bbbbbb" />
+
+</RelativeLayout>

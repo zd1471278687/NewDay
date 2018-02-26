@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="h_divider">0.5dp</dimen>
+
+    <dimen name="ts_10">10sp</dimen>
+    <dimen name="ts_12">12sp</dimen>
+    <dimen name="ts_14">14sp</dimen>
+    <dimen name="ts_16">16sp</dimen>
+
+    <!-- Z-axis elevations -->
+    <dimen name="z_card">2dp</dimen>
+    <dimen name="touch_raise">6dp</dimen>
+</resources>
